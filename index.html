@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr" dir="ltr">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
-    <title>Manage Landing Page</title>
+    <title>E-learning</title>
   </head>
   <body>
     <!-- Navbar -->
@@ -25,11 +25,7 @@
           <a href="#" class="hover:text-darkGrayishBlue">Community</a>
         </div>
         <!-- Button -->
-        <a
-          href="#"
-          class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
-          >Get Started</a
-        >
+          <a href="#" class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">S'inscrire</a>
 
         <!-- Hamburger Icon -->
         <button
@@ -53,7 +49,11 @@
           <a href="#">About Us</a>
           <a href="#">Careers</a>
           <a href="#">Community</a>
+
+        <a href="#" class=" p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block">S'inscrire</a>
+
         </div>
+
       </div>
     </nav>
 
@@ -297,33 +297,31 @@
           class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start"
         >
           <div class="mx-auto my-6 text-center text-white md:hidden">
-            Copyright &copy; 2022, All Rights Reserved
+            Copyright &copy; 2023 All Rights Reserved
           </div>
           <!-- Logo -->
           <div>
-            <img src="img/logo-white.svg" class="h-8" alt="" />
+            <a href="index.html">
+            <img src="img/logo-white.svg" class="h-8" alt="#" />
+            </a>
           </div>
           <!-- Social Links Container -->
           <div class="flex justify-center space-x-4">
             <!-- Link 1 -->
             <a href="#">
-              <img src="img/icon-facebook.svg" alt="" class="h-8" />
+              <img src="img/icon-facebook.svg" alt="" class="h-3" />
             </a>
             <!-- Link 2 -->
             <a href="#">
-              <img src="img/icon-youtube.svg" alt="" class="h-8" />
+              <img src="img/icon-youtube.svg" alt="" class="h-3" />
             </a>
             <!-- Link 3 -->
             <a href="#">
-              <img src="img/icon-twitter.svg" alt="" class="h-8" />
-            </a>
-            <!-- Link 4 -->
-            <a href="#">
-              <img src="img/icon-pinterest.svg" alt="" class="h-8" />
+              <img src="img/icon-twitter.svg" alt="" class="h-3" />
             </a>
             <!-- Link 5 -->
             <a href="#">
-              <img src="img/icon-instagram.svg" alt="" class="h-8" />
+              <img src="img/icon-instagram.svg" alt="" class="h-3" />
             </a>
           </div>
         </div>
@@ -347,19 +345,21 @@
           <form>
             <div class="flex space-x-3">
               <input
-                type="text"
+                type="email"
+                inputmode="email"
                 class="flex-1 px-4 rounded-full focus:outline-none"
-                placeholder="Updated in your inbox"
+                placeholder="Votre adresse email"
+                required
               />
               <button
                 class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none"
               >
-                Go
+                envoyez
               </button>
             </div>
           </form>
           <div class="hidden text-white md:block">
-            Copyright &copy; 2022, All Rights Reserved
+            Copyright &copy; 2023 
           </div>
         </div>
       </div>
